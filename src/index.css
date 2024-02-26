@@ -4,6 +4,10 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+body, html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --yellow: #D69F29;
 }

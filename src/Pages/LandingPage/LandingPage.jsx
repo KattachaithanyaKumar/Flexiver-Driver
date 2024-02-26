@@ -4,6 +4,8 @@ import "./landing.css";
 import Navbar from '../../Components/Navbar/Navbar';
 
 import heroVideo from "../../assets/landing-video.mp4";
+import map from "../../assets/map.png";
+
 import {FaFilePen, FaTruck } from "react-icons/fa6";
 import { FaRegThumbsUp } from "react-icons/fa";
 import Aos from 'aos';
@@ -30,16 +32,27 @@ const LandingPage = () => {
             <FaFilePen color='black' size={38} />
             <p>Register</p>
           </div>
-          <div className="flow-item" data-aos="fade-up" data-aos-offset="250">
+          <div className="flow-item" data-aos="fade-up" data-aos-offset="300">
             <FaRegThumbsUp color='black' size={38} />
             <p>Get Approval</p>
           </div>
-          <div className="flow-item" data-aos="fade-up" data-aos-offset="300">
+          <div className="flow-item" data-aos="fade-up" data-aos-offset="400">
             <FaTruck color='black' size={38} />
             <p>Start Driving</p>
           </div>
         </div>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nihil iste dolores dolorum, quod ullam error harum, ducimus laborum odio rem tempore laudantium maiores expedita neque dicta eius necessitatibus consequuntur. Dolores pariatur excepturi fugit molestias cupiditate consectetur temporibus minus dolor repellat eligendi tempore porro, labore deserunt quia quam ea et numquam expedita? Vel rem fuga minima voluptate quia. Voluptates voluptatem, voluptatum exercitationem, amet laborum cumque sed placeat fugiat ab corrupti enim et error aut est tempore reiciendis quae non soluta cupiditate similique officiis. Facilis fugit quae mollitia sunt, sequi ab suscipit. Reprehenderit consequuntur error delectus labore eveniet inventore ex dicta impedit, explicabo eos, architecto ea in itaque saepe. Quibusdam sapiente doloribus libero perferendis. Qui non cumque eius temporibus pariatur reprehenderit, voluptatibus eos eum ab repellendus, culpa libero aliquam inventore magnam sunt magni assumenda? Eveniet autem ullam quam iusto voluptatum, dolorem perferendis ad quidem molestias libero sunt corrupti possimus? Harum repudiandae voluptas exercitationem, corrupti qui quaerat mollitia sint est consectetur nemo cumque odit nam quas sapiente dolorem aut possimus dignissimos labore nostrum optio itaque voluptates debitis necessitatibus quasi. Ratione, dolor, animi sint quos perspiciatis maxime atque laboriosam nam cupiditate maiores ullam, nostrum tempora id ad corporis. Excepturi minus itaque voluptas quaerat.</h1>
+        <div className="map">
+          <img src={map} alt="map" />
+        </div>
+
+        <div className="about" id='about' data-aos="fade-right">
+          <h1>ABOUT US</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames. Est ultricies integer quis auctor elit. Erat pellentesque adipiscing commodo elit. Viverra adipiscing at in tellus integer feugiat scelerisque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo pariatur exercitationem at, omnis vel, corporis porro fugiat alias reprehenderit minus rerum quaerat explicabo rem ipsum autem dolore, praesentium itaque dolor. Veniam, quam nesciunt ex, repudiandae, ad iste maiores id totam placeat consectetur ullam soluta quas aliquam illo? Repellat, possimus quasi.</p>
+        </div>
+        <div className="service" id='service' data-aos="fade-left">
+          <h1>SERVICES</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames. Est ultricies integer quis auctor elit. Erat pellentesque adipiscing commodo elit. Viverra adipiscing at in tellus integer feugiat scelerisque.</p>
+        </div>
       </div>
     </div>
   )
