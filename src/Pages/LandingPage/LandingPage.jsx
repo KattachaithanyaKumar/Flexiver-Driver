@@ -112,8 +112,8 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="trucks" id="available">
-          <h1>AVAILABLE VEHICLES</h1>
-          <p>Join our fleet of drivers and choose from a variety of vehicles to suit your preferences and transportation needs:</p>
+          <h1 data-aos="fade-up">AVAILABLE VEHICLES</h1>
+          <p data-aos="fade-up">Join our fleet of drivers and choose from a variety of vehicles to suit your preferences and transportation needs:</p>
           <div className="trucks-container">
             <h2>2 wheeler</h2>
             <h2>4 wheeler</h2>
@@ -123,24 +123,45 @@ const LandingPage = () => {
 
         <div className="mobile">
           <div className="mobile-left">
-            <img src={mobile} alt="mobile" />
+            <img src={mobile} alt="mobile" data-aos="fade-right" />
           </div>
-          <div className="mobile-text">
+          <div className="mobile-text" data-aos="fade-left">
+            <div>
             <h1>AVAILABLE ON <br />YOUR FINGERTIPS</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi quis.</p>
+            <p>Experience convenience like never before with our innovative solutions. Whether you're at home, on the go, or in the office, access our services effortlessly. </p>
+            </div>
+            <div>
+              <button className='apply-button'>Apply to drive</button>
+            </div>
           </div>
         </div>
 
         <div className="footer">
           <div className="footer-left">
-              <h2>Flexiver</h2>
-              <p>Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, 
-              sed do eiusmod tempor 
-              incididunt ut labore </p>
+              <h1>Flexiver</h1>
           </div>
           <div className="footer-right">
-
+              <div className="footer-box">
+                <h3>Services</h3>
+                <p>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor 
+                incididunt ut labore </p>
+              </div>
+              <div className="footer-box">
+                <h3>Contact Us</h3>
+                <p>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor 
+                incididunt ut labore </p>
+              </div>
+              <div className="footer-box">
+                <h3>Careers</h3>
+                <p>Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor 
+                incididunt ut labore </p>
+              </div>
           </div>
         </div>
       </div>
